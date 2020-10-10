@@ -10,8 +10,12 @@ body {
     padding: 5px;
 }
 
+.Hayden {
+    padding-right: 25px;
+    font-weight: bold;
+}
 .logo {
-    width: 23%;
+    width: 10%;
     padding: 1%;
     
 }
@@ -27,7 +31,7 @@ nav {
 
 ul {
     width: 50%;
-    margin: center;
+    
 }
 
 
@@ -36,33 +40,43 @@ ul {
 }
 
 .heroImg {
-    height: 600px;
+    height: 700px;
     padding: 25px;
+    text-align: center;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    text-align: left;
 }
 
 footer {
     background-color: #373738;
-    color: white;"
+    color: white;
+    margin: 10px;
+    text-align: center;
 }
 
 ul {
     display: inline-block;
     vertical-align: top;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50%;
-    padding-right: 50%;
-}
-
-button {
-    justify-content: center;
+    padding: 20px;
+    text-align: center;
 }
 
 .content img {
     height: 500px;
+}
+
+button {
+    margin: 30px;
+}
+
+header {
+    text-align: center;
 }
