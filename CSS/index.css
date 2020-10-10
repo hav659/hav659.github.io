@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #373738;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin: center;
+}
+
+
+.logo {
+    text-align: center;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+    color: white;"
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+button {
+    justify-content: center;
+}
+
+.content img {
+    height: 500px;
+}
