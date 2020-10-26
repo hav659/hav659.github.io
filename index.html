@@ -3,102 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayden Veurink</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <header class="navigation">
-        
-        <nav class="inline-block">
-            <ul>
-                <div class="inline-block logo">
-                    <img src="images/Color Line Design.png" alt="Hayden color logo">    
+    <!--Home Page-->
+    <section class="homePage">
+        <div class="navHome">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Hayden Veurink</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item" id="navText1">
+                      <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
                 </div>
-                <li class="inline-block Hayden">
-                    HAYDEN VEURINK       
-                </li>
-                <li class="inline-block">
-                    About
-                </li>
-                <li class="inline-block">
-                    Skills
-                </li>
-                <li class="inline-block">
-                    Work
-                </li>
-                <li class="inline-block">
-                    Contact
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section class="heroImg">
-        <div class="content">
-            <img src="images/black-and-white-profile.png">
-            <p>
-                My name is Hayden, and I'm a UX Writer and UI Designer. I look forward to crafting beautiful stories that will take your company to the next level!
-            </p>
-            <button>
-                Download Resume
-            </button>
+              </nav>
         </div>
+        <h1 style="text-align: center;">I'm Hayden Veurink.</h1>
+        <h2 style="text-align: center;">And together we can tell the stories that will change the future.</h2>
     </section>
-    <section class="mySkills">
-        <h1>My UX Skills</h1>
-        <div class="flexContainer">
-            <div class="fillerImage skills">
-                <img src="images/Color Line Design.png" alt="Hayden color logo">
-                <h3>User Interface Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quas quia nisi voluptatum ea minus pariatur dolore ducimus maiores odio ex perferendis accusamus provident, ut iste inventore repellendus quae architecto.</p>
+    <!--My Skillset-->
+    <section class="skillSet">
+        <div class="spacer partOne" style="height: 50px;"></div>
+        <div class="blockHeader">MY SKILLS</div>
+            <div class="skillShowcase">
+                <div class="skillLogo">
+                    <img src="images/Creative.png" alt="Creative Computer">
+                    <h2>Adobe Creative Cloud</h2>
+                </div>
+                <div class="skillLogo">
+                    <img src="images/Copywriting.png" alt="Paper and Pen">
+                    <h2>Copywriting</h2>
+                </div>
             </div>
-            <div class="fillerImage skills">
-                <img src="images/Color Line Design.png" alt="Hayden color logo">
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nam reiciendis nesciunt laboriosam perferendis? Aut autem quidem illo porro atque, suscipit ipsa odio aliquid voluptate, ducimus qui, temporibus quaerat voluptatem?</p>
+            <div class="skillShowcase">
+                <div class="skillLogo">
+                    <img src="images/Code.png" alt="Code">
+                    <h2>Front-End Development</h2>
+                </div>
+                <div class="skillLogo">
+                    <img src="images/Clipboard.png" alt="Clipboard">
+                    <h2>User Research</h2>
+                </div>
             </div>
-            <div class="fillerImage skills">
-                <img src="images/Color Line Design.png" alt="Hayden color logo">
-                <h3>UX Writing</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam nulla aliquam iste vero repellendus dignissimos dolore reprehenderit odio libero non. Quae modi ipsa aliquid alias. Officiis quas ut modi deleniti!</p>
-            </div>
-        </div>
     </section>
+    <!--My Work-->
     <section class="myWork">
-        <h1>My Work</h1>
-        <div class="workGrid">
-                <div class="fillerImage">
-                    <img src="images/Color Line Design.png" alt="Hayden color logo">
+        <div class="spacer" style="height: 50px;"></div>
+        <div class="blockHeader">MY WORK</div>
+        <div class="myWorkCards">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">"Nearby" was a mobile app prototype designed to bring communities together and connect those with shared interests.</p>
                 </div>
-                <div>
-                    <h4>Prototype Project 1</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio, neque, ipsam architecto sapiente molestias explicabo illum repellat illo asperiores inventore deserunt nobis alias voluptatibus a debitis repudiandae, ullam ipsa.</p>
-                    <button>View Project</button>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A redesign of the Minnesota Department of Health's mobile COVID-19 website designed to improve speed and clarity of critical information.</p>
                 </div>
-            <div class="fillerImage protoTwo">
-                <img src="images/Color Line Design.png" alt="Hayden color logo">
-            </div>
-            <div>
-                <h4>Prototype Project 2</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio assumenda quia, nisi accusantium voluptatibus iusto facere non natus beatae minus, voluptate commodi doloribus earum soluta quaerat officiis animi a?</p>
-                <button>View Project</button>
-            </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is a placeholder until a reasonable third project can be placed here. Uh...lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+              </div>
         </div>
-        <h3>View all projects</h3>
     </section>
-    <footer>
-        <ul>
-            <li class="inline-block">
-                About
-            </li>
-            <li class="inline-block">
-                Skills
-            </li>
-            <li class="inline-block">
-                Work
-            </li>
-            <li class="inline-block">
-                Contact
-            </li> 
-        </ul>
-    </footer>
+    <!--About Me-->
+    <section class="aboutMe">
+        <div class="spacer" style="height: 50px;"></div>
+        <div class="blockHeader">ABOUT ME</div>
+    </section>
 </body>
 </html>

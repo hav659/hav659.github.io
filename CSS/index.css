@@ -1,128 +1,69 @@
-body {
-    background-color: white;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #373738;
+html {
+    scroll-behavior: smooth;
 }
 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-    padding: 5px;
-}
+/*Home Page*/
+    .homePage {
+        min-height: 100vh;
+        background-image: linear-gradient(beige, rgb(228, 228, 174));
+    }
 
-.Hayden {
-    padding-right: 25px;
-    font-weight: bold;
-}
-.logo {
-    width: 10%;
-    padding: 1%;
-    
-}
+    h1 {
+        margin-top: 300px;
+    }
 
-.logo img {
-    height: 40px;
-}
+/*Skills Section*/
+    .skillSet {
+        min-height: 110vh;
+        background-image: linear-gradient(lightskyblue, rgb(127, 185, 204));
+        height: min-content;
+    }
 
-nav {
-    width: 73%;
-    padding: 1%;
-}
+    .skillShowcase {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin: 90px;
+    }
 
-ul {
-    width: 50%;
-    
-}
+    .skillLogo {
+        color: white;
+    }
 
+    .skillLogo img {
+        max-width: 200px;
+        max-height: 200px;
+    }
 
-.logo {
-    text-align: center;
-}
+    h2 {
+        margin: 20px;
+    }
 
-.heroImg {
-    height: 700px;
-    padding: 25px;
-    text-align: center;
-}
+/*My Work Section*/
+    .myWork {
+        min-height: 110vh;
+        background-image: linear-gradient(lightcoral, coral);
+    }
 
-.content {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-}
+    .myWorkCards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
 
-p {
-    text-align: left;
-}
+/*About Me Section*/
+    .aboutMe {
+        min-height: 110vh;
+        background-image: linear-gradient(lightslategrey, slategray);
+    }
 
-footer {
-    background-color: #373738;
-    color: white;
-    margin: 10px;
-    text-align: center;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    padding: 20px;
-    text-align: center;
-}
-
-.content img {
-    height: 500px;
-}
-
-button {
-    display: block;
-    padding: 5px;
-    margin: auto;
-}
-
-header {
-    text-align: center;
-}
-
-.fillerImage img {
-    height: 200px;
-}
-
-/*My UX Skills section-->*/
-.fillerImage {
-    padding: 10px;
-    text-align: center;
-}
-
-.flexContainer {
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-}
-
-.skills {
-    width: 33%;
-    border: 2px;
-    border-color: black;
-    border-style: none;
-}
-
-h1 {
-    text-align: center;
-}
-
-/*My Work section*/
-.workGrid {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
-    gap: 20px;
-    padding: 50px;
-    padding-top: 20px;
-    height: 30vh;
-}
-
-h3 {
-    text-align: center;
-    margin-bottom: 50px;
-    cursor: pointer;
-}
+/*Misc*/
+    .blockHeader {
+        text-align: center;
+        border: solid white 5px;
+        width: fit-content;
+        padding: 5px 10px 5px 10px;
+        color: white;
+        margin: 20px auto 20px auto;
+        font-size: xx-large;
+    }
