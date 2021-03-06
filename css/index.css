@@ -41,6 +41,7 @@ html {
         margin: auto;
     }
 
+    
     .copywriting {
         grid-column-start: 3;
         grid-row-start: 2;
