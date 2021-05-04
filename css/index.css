@@ -126,8 +126,8 @@ html {
     .caseStudyCards {
         background-color: white;
         margin-top: 100px;
-        margin-left: 30vh;
-        margin-right: 30vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
     }
     .caseStudyImages {
         display: flex;
