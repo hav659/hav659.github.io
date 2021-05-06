@@ -122,12 +122,14 @@ html {
         min-height: 110vh;
         background-image: linear-gradient(lightcoral, coral);
         height: fit-content;
+        padding-bottom: 100px;
     }
     .caseStudyCards {
         background-color: white;
         margin-top: 100px;
         margin-left: 15vw;
         margin-right: 15vw;
+        
     }
     .caseStudyImages {
         display: flex;
